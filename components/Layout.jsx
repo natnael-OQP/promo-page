@@ -4,10 +4,12 @@ import Header from './Header';
 
 function Layout({ children }) {
     return (
-        <div className="max-w-8xl mx-auto font-Pop">
+        <div className="max-w-7xl mx-auto ">
             <Header />
             <main>{children}</main>
-            <Footer />
+            {/*
+                <Footer />
+            */}
         </div>
     );
 }
