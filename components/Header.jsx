@@ -3,7 +3,7 @@ import React from 'react';
 
 function Header() {
     return (
-        <div className="max-w-7xl z-50 h-20 w-full mx-auto    flex flex-row justify-between items-center px-10 absolute top-0 left-0">
+        <div className="absolute top-0 left-0 z-50 flex flex-row items-center justify-between w-full h-20 px-0 mx-auto max-w-7xl md:px-10">
             {/*logo*/}
             <div className=" relative h-full w-[200px] z-55 ml-10">
                 <Image
