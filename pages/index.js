@@ -6,8 +6,8 @@ import { Zoom } from 'react-awesome-reveal';
 
 export default function Home() {
     return (
-        <div className="relative flex flex-row items-center justify-between w-full h-screen px-12 overflow-hidden text-3xl font-bold font-popi ">
-            <div className="top-0 -right-5 w-[57vw] h-[90vh]  fixed  overflow-hidden z-10 ">
+        <div className="relative flex flex-col-reverse items-center justify-between w-full h-full px-2 overflow-hidden text-3xl font-bold lg:px-12 md:flex-row font-popi ">
+            <div className="none md:top-0 md:-right-5 md:w-[57vw] md:h-[90vh]  md:fixed  overflow-hidden z-10 ">
                 <div className="relative z-30 w-full h-full ">
                     <Image
                         layout="fill"
@@ -18,7 +18,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="top-5 right-5 w-[49vw] h-[80vh]  absolute  overflow-hidden z-20 ">
+            <div className="md:top-5 md:right-5 md:w-[49vw] md:h-[80vh] none  md:fixed overflow-hidden z-20 ">
                 <div className="relative z-30 w-full h-full ">
                     <Image
                         layout="fill"
@@ -29,11 +29,12 @@ export default function Home() {
                 </div>
             </div>
             {/*left*/}
-            <div className="flex flex-col  z-30 justify-center pb-20 overflow-hidden flex-[.45] bg-green h-full  ">
-                <div className="w-[85%]">
+            <div className="flex flex-col  z-40 justify-center md:pb-20 overflow-hidden w-full md:flex-[.45] h-full  md:h-screen  ">
+                <h1 className="w-[90%] md:w-[90%] text-xl md:text-4xl">
                     <Typewriter
                         options={{
                             delay: 30,
+                            cursor: ' ',
                         }}
                         // className="text-sm"
                         onInit={(typewriter) => {
@@ -46,11 +47,11 @@ export default function Home() {
                             // .deleteAll()
                             // .callFunction(() => {
                             //     console.log('All strings were deleted');
-                            // })
+                            // }).
                         }}
                     />
-                </div>
-                <h5 className="text-sm text-[#404554] w-[50%] font-medium mt-7">
+                </h1>
+                <h5 className="text-sm text-[#404554] w-[75%] md:w-[50%] font-medium mt-2">
                     Knockdown inflation and purchase now, and enjoy every moment
                     of your payment without stress
                 </h5>
@@ -62,14 +63,14 @@ export default function Home() {
                         Promotion Video
                     </button>
                 </div>
-                <h1 className="text-xs text-[#404554] font-medium tracking-wider absolute bottom-10 left-10">
+                <h1 className="text-xs text-[#404554] mt-5 none font-medium tracking-wider md:absolute md:bottom-10 md:left-10  ">
                     Privacy Policy
                 </h1>
             </div>
             {/*right*/}
-            <div className="bg-gray z-30 w-full relative  flex-[.6]">
+            <div className="z-30 w-full  relative  flex-[.6] mt-10">
                 <Zoom triggerOnce>
-                    <div className=" relative h-[75vh] w-[full] ml-10 ">
+                    <div className=" relative h-[50vh]  w-[70%] lg:w-full lg:h-[75vh]  lg:ml-10 ">
                         <Image
                             layout="fill"
                             objectFit="contain"
