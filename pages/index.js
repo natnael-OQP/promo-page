@@ -63,7 +63,7 @@ export default function Home() {
                         Promotion Video
                     </button>
                 </div>
-                <h1 className="text-xs text-[#404554] mt-5 none font-medium tracking-wider md:absolute md:bottom-10 md:left-10  ">
+                <h1 className="text-xs text-[#404554] mt-7 none font-medium tracking-wider md:absolute md:bottom-10 md:left-10  ">
                     Privacy Policy
                 </h1>
             </div>
