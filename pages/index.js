@@ -6,7 +6,7 @@ import { Zoom } from 'react-awesome-reveal';
 
 export default function Home() {
     return (
-        <div className="relative flex flex-col-reverse items-center justify-between w-full h-full px-2 overflow-hidden text-3xl font-bold lg:px-12 md:flex-row font-popi ">
+        <div className="relative flex flex-col-reverse items-center justify-between w-full h-screen px-2 overflow-hidden text-3xl font-bold lg:px-12 md:flex-row font-popi ">
             <div className="none md:top-0 md:-right-5 md:w-[57vw] md:h-[90vh]  md:fixed  overflow-hidden z-10 ">
                 <div className="relative z-30 w-full h-full ">
                     <Image

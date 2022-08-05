@@ -1,13 +1,11 @@
-import Head from 'next/head';
 import Image from 'next/image';
 
 import Typewriter from 'typewriter-effect';
 import { Zoom } from 'react-awesome-reveal';
-import { useRouter } from 'next/router';
 
 export default function Home() {
     return (
-        <div className="relative bg-black flex flex-col-reverse items-center justify-between w-full h-full px-2 overflow-hidden text-3xl font-bold lg:px-12 md:flex-row font-popi ">
+        <div className="relative flex flex-col-reverse items-center justify-between w-full h-screen px-2 overflow-hidden text-3xl font-bold bg-black lg:px-12 md:flex-row font-popi ">
             <div className="none md:top-0 md:-right-5 md:w-[57vw] md:h-[90vh]  md:fixed  overflow-hidden z-10 ">
                 <div className="relative z-30 w-full h-full ">
                     <Image
@@ -64,7 +62,7 @@ export default function Home() {
                         Promotion Video
                     </button>
                 </div>
-                <h1 className="text-xs text-[#404554] mt-5 none font-medium tracking-wider md:absolute md:bottom-10 md:left-10  ">
+                <h1 className="text-xs text-[#404554] mt-7 none font-medium tracking-wider md:absolute md:bottom-10 md:left-10  ">
                     Privacy Policy
                 </h1>
             </div>
