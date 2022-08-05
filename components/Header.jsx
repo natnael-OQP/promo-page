@@ -16,9 +16,7 @@ function Header() {
                     layout="fill"
                     objectFit="contain"
                     src={
-                        pathname == '/flipblack'
-                            ? '/logo-white.png'
-                            : '/images/logo.png'
+                        pathname == '/' ? '/images/logo.png' : '/logo-white.png'
                     }
                     alt="logo"
                 />
@@ -29,9 +27,9 @@ function Header() {
                     layout="fill"
                     objectFit="contain"
                     src={
-                        pathname == '/flipblack'
-                            ? '/social-media-icon.png'
-                            : '/images/socialmediaicon.png'
+                        pathname == '/'
+                            ? '/images/socialmediaicon.png'
+                            : '/social-media-icon.png'
                     }
                     alt="logo"
                     className="z-55"
